@@ -14,7 +14,12 @@ To use this web application, you can review the notes in each section. For sugge
 
 ## Credits
 
-N/A
+Website used to create avatar: 
+www.avatarmaker.com
+
+Other websites used to help with coding:
+www.freecodecamp.org
+www.w3schools.com
 
 ## License
 
