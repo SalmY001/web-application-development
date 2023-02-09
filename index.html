@@ -12,7 +12,6 @@
 <body>
   <!-- Header -->
   <header>
-    <!--<div class="header">-->
     <h1>Welcome!</h1>
     <h2>
       Great to see you have visted my page
@@ -20,59 +19,62 @@
   </header>
 
   <nav>
-    <a href="#">About Me</a>
-    <a href="#">Work</a>
-    <a href="#">Contact Details</a>
+    <!--Navigation links section-->
+    <a href="#About">About Me</a>
+    <a href="#Work">Work</a>
+    <a href="#contactDetails">Contact Details</a>
   </nav>
 
   <main>
     <div class="mainContent"><!--Class displays the main text in a block-->
-      <section id="photo">
-      <figure>
-        <img src="./Images/avatar_200.png" alt="Photo of Yvonne"/>
-        <figcaption>Hi, I am Yvonne S.</figcaption>
-      </figure>
+      <section class = "sectionFormats" id="sectionSize">
+        <h3 class="h3">About Me</h3><!--Start 'About Me' section-->
+        <div id="About"></div>
+        <section id="photo">
+          <figure>
+            <img src="./Images/avatar_200.png" alt="Photo of Yvonne"/>
+            <P>Hi, my name is Yvonne and I am learning skills in web development.  My current location is the United Kingdom.</P>
+          </figure>
+        </section>
       </section>
 
-      
-      <secion class ="sectionFormats" id="sectionSize">
-        <h3>About Me</h3>
-      </secion>
+      <section class ="sectionFormats" id="sectionSize">
+        <h3 class="h3">Work</h3><!--Start 'Work' section-->
+        <div id="Work"></div>
+        <div class="aboutMeImages">
+          <section class="imageOcto">
+            <header>Urban Octo Project</header>
+            <div>
+              <a href="https://salmy001.github.io/urban-octo-project/" target="_blank" rel="noopener noreferrer"><!--Creates a link to open the project in the browser-->
+              <img src="./Images/urban_project-r.png" alt="Image showing blue and oraange swirls"/></a>
+            </div>
+            <p>HTML & CSS</p>
+          </section>
 
-      <secion class ="sectionFormats" id="sectionSize">
-        <h3>Work</h3>
-      </secion>
+          <section class="imageGuide">
+            <header>Study Guide</header>
+            <div>
+              <a href="https://salmy001.github.io/prework-study-guide/" target="_blank" rel="noopener noreferrer"><!--Creates a link to open the project in the browser-->
+              <img src="./Images/study_guide-r.jpg" alt="Image showing computer screen with coding displayed"/></a>
+            </div>
+            <p>HTML & CSS</p>
+          </section>
+        </div>
+      </section>
 
-      <div class="aboutMeImages">
-        <section class="imageOcto">
-          <header>Urban Octo Project</header>
-          <div>
-          <img src="./Images/urban_project-r.png" alt="Image showing blue and oraange swirls"/>
+      <section class ="sectionFormats" id="sectionSize">
+          <h3 class="h3">Contact Details</h3><!--Start 'Contact Details' section-->
+          <div id="contactDetails"></div>
+            <address>
+              <ul class="listings">
+                <li><strong>Email: </strong>someplace@gmail.com</a></li>
+                <li><strong>Github: </strong><a href="https://github.com/SalmY001" target="_blank" rel="noopener noreferrer">salmy001</a></li>
+                <li><strong>Mobile: </strong> (+44)7000-000-000</li>
+                <li><strong>Address Details: </strong>United Kingdom</li>
+              </ul>
+            </address>
           </div>
-          <p>HTML & CSS</p>
-
-        <section class="imageGuide">
-          <header>Study Guide</header>
-          <div>
-          <img src="./Images/study_guide-r.jpg" alt="Image showing computer screen with coding displayed"/>
-          </div>
-          <p>HTML & CSS</p>
-        </section>
-      </div>
-
-        <secion class ="sectionFormats" id="sectionSize">
-          <h3>Contact Details</h3>
-          <ul>
-            <!-- TODO: add id attribute -->
-            <li><strong>Email:</strong><a href="#">someplace@gmail.com</a></li>
-            <li><strong>Github:</strong><a href="#">sampleName</a></li>
-            <!-- TODO: add id attribute -->
-            <li><strong>Mobile:</strong> (+44)7000-000-000</li>
-            <li><strong>Address Details:</strong>United Kingdom</li>
-          </ul>
-        </secion>
+      </section>
     </div>
-
   </main>
-
 </body>
