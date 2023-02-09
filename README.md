@@ -18,7 +18,7 @@ Website used to create avatar:
 www.avatarmaker.com
 
 Other websites used to help with coding:
-www.freecodecamp.org
+www.freecodecamp.org,
 www.w3schools.com
 
 ## License
