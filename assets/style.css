@@ -18,7 +18,7 @@ nav {
     display: flex;
     background-color: #7fd882;
     color:rgb(7, 7, 49);
-    padding: 30px;
+    padding: 5px;
     justify-content: left;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -42,64 +42,73 @@ body{
 }
 
 .sectionFormats {
-    display: flex;
-    /*background-color: grey;*/
-    color:rgb(10, 10, 47);
-    padding: 10px 30px;
-    margin: 30px;
+    padding-top: 10px;
+    margin: 10px;
     text-decoration: none;
     text-align: center;
     font-size: large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: left;
+    /*justify-content: left;*/
     font-weight: bold;
-
+    display: -webkit-inline-flex;
 }
 
-#sectionSize {
+.sectionSize {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
 }
 
 
 /*Apply image boxes and styling*/
 .aboutMeImages {
     flex: 2;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     /*flex-direction: column;*/
     flex-wrap: wrap;
     flex: 100%;
     justify-content: space-evenly;
     align-items: flex-start;
-    /*position: relative;*/
     /*align-items: flex-start;*/
-  }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
 
 .imageOcto {
     background-color: aquamarine;
-    /*display: block;*/
-    height: 50%;
-    width: 100%;
-    /*border-width: 1px;*/
-    padding: 30px;
-    margin: 10px;
+    height: 75%;
+    width: 60%;
+    padding: 20px;
+    margin: 5px;
     flex: 0 0 50%;
     box-shadow: 10px 10px 5px green;
-    border-radius: 50px;
-    /*transform: rotate(5deg);*/
+    border-radius: 30px;
 }
 
 .imageGuide {
     background-color: aquamarine;
-    /*display:inline-block;*/
-    height: 30%;
+    height: 75%;
     width:50%;
+    padding: 10px;
+    margin: 5px;
+    flex: 0 0 50%;
+    box-shadow: 10px 10px 5px green;
+    border-radius: 30px;
+}
+
+.project1 {
+    background-color: aquamarine;
+    /*display:inline-block;*/
+    height: 65%;
+    width:55%;
     /*border-width: 1px;*/
-    padding: 30px;
+    padding: 10px;
     margin: 10px;
     flex: 0 0 50%;
     box-shadow: 10px 10px 5px green;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .imageOcto header {
@@ -107,31 +116,32 @@ body{
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     
-  }
+}
 
 .imageOcto img {
     width: 100%;
 }
 
-.imageOcto p {
-    text-align: center;
-  }
-
 .imageGuide header {
     padding: 20px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    border-top-width: 20px;
 }
 
 .imageGuide img {
-    width: 50%;
+    width: 100%;
 }
 
-.imageGuide p {
-    text-align: center;
+.project1 header {
+    padding: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    
 }
 
+.project1 img {
+    width: 100%;
+}
 
 .sectionLinks {
     margin-right: 20px;
@@ -139,7 +149,7 @@ body{
     clear: both;
     float: left;
     width: 20%;
-    height: 100%;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -153,8 +163,10 @@ body{
     padding: 30px;
 }
 
-.h3{
+.h3 {
     background-color: grey;
+    column-rule-style: solid;
+    /*column-rule-color: blue;*/
 }
 
 .sectionContact {
@@ -163,23 +175,23 @@ body{
     color: #ffffff;
 }
 
-div.contactDetails{
+div.contactDetails {
     text-align: center;
 }
 
 .listings {
-    display:inline-block;
+    display: inline-block;
     text-align: left;
 }
 
 
-.floatRight{
-    float:right;
+.floatRight {
+    float: right;
     margin-right: 15px;
 }
 
 /* Screen size for laptop*/
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 992px) {
     .main {
       flex-direction: column;
       background-color: red;
@@ -187,7 +199,7 @@ div.contactDetails{
 }
 
 /* Screen size for tablet*/
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 600px) {
     .main {
       flex-direction: column;
       background-color: yellow;
@@ -195,9 +207,10 @@ div.contactDetails{
 }
 
 /* Screen size for mobile*/
-@media screen and (min-width:100px) {
+@media only screen and (max-width:600px) {
     .main {
-      flex-direction: column;
-      background-color: brown;
+        flex-direction: column;
+        background-color: brown;
+        width: 100%;
     }
 }
