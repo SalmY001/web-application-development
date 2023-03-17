@@ -209,8 +209,8 @@ div.contactDetails {
 /* Screen size for mobile*/
 @media only screen and (max-width:600px) {
     .main {
-      flex-direction: column;
-      background-color: brown;
-      width: 100%;
+        flex-direction: column;
+        background-color: brown;
+        width: 100%;
     }
 }
