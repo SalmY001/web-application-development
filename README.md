@@ -11,6 +11,7 @@ To use this web application, you can review the notes in each section. For sugge
 ## Usage
 
 The web application is deployed in the following link:
+
 https://salmy001.github.io/web-application-development/
 
 
