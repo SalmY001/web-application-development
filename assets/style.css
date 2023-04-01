@@ -90,7 +90,7 @@ body{
 .imageGuide {
     background-color: aquamarine;
     height: 75%;
-    width:50%;
+    width:60%;
     padding: 10px;
     margin: 5px;
     flex: 0 0 50%;
@@ -98,11 +98,11 @@ body{
     border-radius: 30px;
 }
 
-.project1 {
+.project1, .password-generator {
     background-color: aquamarine;
     /*display:inline-block;*/
-    height: 65%;
-    width:55%;
+    height: 75%;
+    width:60%;
     /*border-width: 1px;*/
     padding: 10px;
     margin: 10px;
@@ -132,14 +132,14 @@ body{
     width: 100%;
 }
 
-.project1 header {
+.project1 header, .password-generator header {
     padding: 20px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     
 }
 
-.project1 img {
+.project1 img, .password-generator img {
     width: 100%;
 }
 
