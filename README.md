@@ -32,4 +32,4 @@ www.w3schools.com
 
 ## License
 
-Please refer to the LICENSE in the repo.
+Please refer to the license in the repo.
