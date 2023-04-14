@@ -178,12 +178,6 @@ div.contactDetails {
     text-align: left;
 }
 
-
-.floatRight {
-    float: right;
-    margin-right: 15px;
-}
-
 /* Screen size for laptop*/
 @media only screen and (min-width: 992px) {
     .main {
