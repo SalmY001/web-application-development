@@ -185,7 +185,7 @@ div.contactDetails {
 }
 
 /* Screen size for laptop*/
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .main {
       flex-direction: column;
       background-color: red;
@@ -193,10 +193,11 @@ div.contactDetails {
 }
 
 /* Screen size for tablet*/
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .main {
       flex-direction: column;
       background-color: yellow;
+      width: 100%;
     }
 }
 
