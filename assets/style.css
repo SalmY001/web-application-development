@@ -174,7 +174,7 @@ body{
     column-rule-style: solid;
 }
 
-header, p {
+header, p, a, h3 {
     font-size: 1.5vw;
 }
 
