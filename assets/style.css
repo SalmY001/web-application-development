@@ -81,7 +81,7 @@ body{
 
 .imageOcto {
     background-color: aquamarine;
-    height: 80%;
+    height: 85%;
     width: 100%;
     padding: 10px;
     margin: 5px;
@@ -101,7 +101,7 @@ body{
     border-radius: 30px;
 }
 
-.project1, .password-generator, .readme-generator {
+.project1, .password-generator, .readme-generator, .object-orientated-programming {
     background-color: aquamarine;
     height: 85%;
     width:90%;
@@ -136,7 +136,7 @@ body{
     width: 100%;
 }
 
-.project1 header, .password-generator header, .readme-generator header {
+.project1 header, .password-generator header, .readme-generator header, .object-orientated-programming header {
     padding: 20px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -145,7 +145,7 @@ body{
     /*column-gap: 50px;*/
 }
 
-.project1 img, .password-generator img, .readme-generator img {
+.project1 img, .password-generator img, .readme-generator img, .object-orientated-programming img {
     width: 100%;
 }
 
