@@ -18,7 +18,8 @@ https://salmy001.github.io/web-application-development/
 
 An example image of the web page is displayed below.
 
-![Screenshot](https://user-images.githubusercontent.com/80605132/229313502-760a0549-1a21-4eb1-b420-9d3a8a771439.jpg)
+
+![Screenshot](https://user-images.githubusercontent.com/80605132/232175434-2d5115db-1cd3-4aa9-b92e-ab14f811b31f.jpg)
 
 
 ## Credits
