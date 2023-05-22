@@ -71,7 +71,7 @@ body{
 .grid-container {
     display: grid;
     /*grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));*/
-    grid-template-columns: repeat(3, minmax(30%, 1fr));
+    grid-template-columns: repeat(4, minmax(30%, 1fr));
     /*grid-template-columns: repeat(4, auto);*/
     /*grid-auto-rows: minmax(35%, auto);*/
     gap: 8%;
@@ -101,7 +101,9 @@ body{
     border-radius: 30px;
 }
 
-.project1, .password-generator, .readme-generator, .object-orientated-programming {
+.project1, .password-generator, .readme-generator, .object-orientated-programming,
+.project2
+{
     background-color: aquamarine;
     height: 85%;
     width:90%;
@@ -136,7 +138,9 @@ body{
     width: 100%;
 }
 
-.project1 header, .password-generator header, .readme-generator header, .object-orientated-programming header {
+.project1 header, .password-generator header, .readme-generator header, .object-orientated-programming header,
+.project2 header
+{
     padding: 20px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -145,7 +149,9 @@ body{
     /*column-gap: 50px;*/
 }
 
-.project1 img, .password-generator img, .readme-generator img, .object-orientated-programming img {
+.project1 img, .password-generator img, .readme-generator img, .object-orientated-programming img,
+.project2 img
+{
     width: 100%;
 }
 
